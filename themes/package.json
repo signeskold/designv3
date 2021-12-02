@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+    "style": "sass kmom03/scss/style.scss kmom03/css/style.css --no-source-map",
+    "style-min": "sass kmom03/scss/style.scss kmom03/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "normalize.css": "^8.0.1",
     "sass": "^1.43.4",
     "stylelint": "^14.1.0",
-    "stylelint-config-sass-guidelines": "^9.0.1"
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-order": "^5.0.0"
   }
 }
