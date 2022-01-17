@@ -1,6 +1,6 @@
 ---
-Title: About
-Description: Tools used on this web page
+Title: Om
+Description: Verktyg som har använts på den här sidan
 ---
 
 About

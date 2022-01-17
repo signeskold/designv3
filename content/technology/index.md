@@ -1,6 +1,6 @@
 ---
-Title: Technology
-Description: Different technologies
+Title: Teknologi
+Description: Olika teknologier
 Template: technologies
 ---
 

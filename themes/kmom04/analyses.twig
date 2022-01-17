@@ -1,0 +1,31 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main analysis-container" role="main">
+
+        {{ content }}
+
+        {% for page in pages("analysis") %}
+            <div class="analysis">
+                <div class="analysis-title">
+                    <h2>{{ page.title }}</h2>
+                </div>
+                <div class="analysis-description">
+                    <p>{{ page.description }}</p>
+                </div>
+                <div class="analysis-link">
+                    <a href="{{ page.url }}" title="Gå till analys" role="button">
+                        <i class="fas fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
+                        <span class="sr-only">"Title"</span>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

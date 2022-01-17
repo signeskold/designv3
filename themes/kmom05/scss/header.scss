@@ -1,0 +1,54 @@
+/* Header */
+
+.header {
+    flex: 0 0 auto;
+    background-color: $background-colour-header;
+}
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a,
+.title a {
+    color: $font-colour;
+    text-decoration: none;
+}
+
+.nav a:hover,
+.title h1:hover,
+.title p:hover {
+    color: $font-colour-accent;
+}
+
+/* Title */
+
+.title,
+.logo {
+    padding: 3em 3em 3em 1em;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: $font-colour-title;
+}
+
+.title p {
+    font-style: italic;
+}
