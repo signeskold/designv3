@@ -1,0 +1,33 @@
+.loadtools,
+.loads,
+.poss {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.loadtools td,
+.loadtools th,
+.loads td,
+.loads th,
+.poss td,
+.poss th {
+    border: 1px solid $border-colour-container;
+    text-align: left;
+    padding: 2px;
+}
+
+.loadtools tr:nth-child(even) {
+    background-color: $background-colour-container-title;
+}
+
+.loads .green {
+    background-color: $background-colour-psi-green;
+}
+
+.loads .orange {
+    background-color: $background-colour-psi-orange;
+}
+
+.loads .red {
+    background-color: $background-colour-psi-red;
+}
